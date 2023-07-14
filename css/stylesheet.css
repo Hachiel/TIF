@@ -23,3 +23,34 @@ label {
     display: flex;
     justify-content: space-evenly;
 }
+
+.indexador {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.a__btn {
+    text-align: center;
+    color: rgb(190, 187, 187);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    align-content: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 3px 0.2px;
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    padding: auto;
+    background-color: #dc3545;
+}
+
+.a__btn:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
