@@ -35,7 +35,8 @@ label {
 .a__btn {
     text-align: center;
     color: rgb(190, 187, 187);
-    font-size: large;
+    font-size: larger;
+    font-weight: 600;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     align-content: center;
